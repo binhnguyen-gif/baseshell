@@ -1,2 +1,6 @@
 #!/bin/bash
-echo "Hello World"
+read -p "Nhap vao n " n
+for ((i=0;i<n;i++))
+do
+   echo $i
+done
